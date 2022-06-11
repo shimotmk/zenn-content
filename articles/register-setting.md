@@ -45,9 +45,9 @@ register_setting(
 引用:
 https://developer.wordpress.org/reference/functions/register_setting/#comment-5289
 
-ちょっと見にくいしオプションが多くなったらなおさら見にくいですよね
+ちょっと見にくいしオプションが多くなったらなおさら見にくくなることが想定されます
 
-## 結論
+## 個人的にいい感じのコード
  
 ```PHP
 /**
