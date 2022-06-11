@@ -171,7 +171,7 @@ https://qiita.com/7968/items/a8eec7a32f7e8a7c0bab
 ```PHP
 function my_plugin_get_options() {
 	$options  = get_option( 'myPluginOptions' );
-	$defaults = my_plugin_get_properties($option_schema);
+	$defaults = my_plugin_get_defaults($option_schema);
 	$options  = wp_parse_args( $options, $defaults );
 	return $options;
 }
