@@ -63,7 +63,7 @@ add_filter( 'allowed_block_types_all',
 ブロックディレクトリーの検索などに不具合がある。
 https://github.com/WordPress/gutenberg/issues/33954
  
-# unregisterブロックを使う
+# unregisterでブロックの登録をやめる
 そもそもブロックの登録をやめる
 
 コード
