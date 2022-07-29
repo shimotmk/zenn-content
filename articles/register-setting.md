@@ -75,7 +75,14 @@ function my_plugin_get_defaults( $schema ) {
 function my_plugin_get_properties( $schema ) {
 	$properties = array();
 	foreach ( $schema as $key => $value ) {
-		$properties[ $key ]['properties'] = 'object' === $value['type'] ? my_plugin_get_properties( $value['items'] ) : $value['type'];
+		$properties[ $key ] = array(
+			'type' => $value['type'],
+		);
+
+		if ( 'object' === $value['type'] ) {
+			$properties[ $key ]['properties'] = my_plugin_get_properties( $value['items'] );
+		}	
+
 	}
 	return $properties;
 }
