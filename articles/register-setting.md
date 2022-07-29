@@ -1,5 +1,5 @@
 ---
-title: "register_settingのdefaultとpropertiesをいい感じにする関数を作った" # 記事のタイトル
+title: "register_settingのdefaultとpropertiesをいい感じにする関数を作った話" # 記事のタイトル
 emoji: "⚙️" # アイキャッチとして使われる絵文字（1文字だけ）
 type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["WordPress","gutenberg"] # タグ。["markdown", "rust", "aws"]のように指定する
@@ -177,3 +177,6 @@ https://qiita.com/7968/items/a8eec7a32f7e8a7c0bab
 `$option_schema`はクラス化するなりグローバル変数にするなりして使う
 
 あとはwordpress/apiやregister_rest_routeで保存処理を書けばOK
+
+ちなみにClass化するとこんな感じ
+https://github.com/vektor-inc/vk-blocks/blob/f5bd1f564328046de37ecd46b899ca3f4f718c63/inc/vk-blocks/class-vk-blocks-options.php
