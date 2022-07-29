@@ -45,9 +45,9 @@ register_setting(
 引用:
 https://developer.wordpress.org/reference/functions/register_setting/#comment-5289
 
-ちょっと見にくいしオプションが多くなったらなおさら見にくくなることが想定されます
+ちょっと見にくいしオプションが多くなったらdefaultやpropertiesが増え、より見にくくなることが想定されますよね
 
-## 個人的にいい感じのコード
+## 個人的にいい感じにしたコード
  
 ```PHP
 /**
@@ -168,15 +168,13 @@ add_action(
 	}
 );
 ```
-register_settingのschemaがズレるとオプションが保存されないので関数などにしておくと便利
-
 defaultやpropertiesの取得方法がオブジェクトの場合、無限に入れ子になる可能性があるので再帰関数を使いました。
 
 https://qiita.com/7968/items/a8eec7a32f7e8a7c0bab
 
-`$option_schema`はクラス化するなりグローバル変数にするなりして使う
-
 あとはwordpress/apiやregister_rest_routeで保存処理を書けばOK
 
-ちなみにClass化するとこんな感じ
+ちなみにClass化するとこんな感じです
 https://github.com/vektor-inc/vk-blocks/blob/f5bd1f564328046de37ecd46b899ca3f4f718c63/inc/vk-blocks/class-vk-blocks-options.php
+
+説明用のコードではないですが、、、
