@@ -6,6 +6,12 @@ topics: ["Git","Github"] # タグ。["markdown", "rust", "aws"]のように指�
 published: false # 公開設定（falseにすると下書き）
 ---
 
+:::message
+この記事は「[Vektor WordPress Solutions Advent Calendar 2022](https://adventar.org/calendars/7729)」の12月16日の記事になります。
+:::
+
+-----
+
 ## VSCodeでよく使うGit,Gitコマンド,Github
 
 個人的にVSCodeでよく使うGit,Gitコマンドをまとめました。
@@ -158,7 +164,7 @@ https://github.com/issues
 
 ### Github notifications 通知
 
-Github notificationsは正直迷っています。。。
+Github notificationsは正直迷っています😅。。。
 一応参考までにGithubのpull requestsやIssuesのコメントやりとりの通知設定について共有しておくと以下の感じ。
 
 それぞれの設定は設定画面のNotificationsから見れるはず。
@@ -172,7 +178,7 @@ Watchingしているチームやリポジトリーのやりとりがあれば通
 ![](/images/github-unsubscribe.png)
 
 ベルマークをクリックしてコメントなどを確認したらDoneを押して完了
-![](/images/github-settings-notifications.png)
+![](/images/github-notifications.png)
 
 ## 最後に。
 
@@ -183,3 +189,6 @@ Git,Githubは素晴らしい仕組み、サービスですね。
 
 それでは👋
 
+:::message
+次の記事は、 〇〇さんが「〇〇」の記事を書いてくれるそうです。お楽しみに！
+:::
