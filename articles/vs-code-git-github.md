@@ -190,5 +190,5 @@ Git,Githubは素晴らしい仕組み、サービスですね。
 それでは👋
 
 :::message
-次の記事は、 〇〇さんが「〇〇」の記事を書いてくれるそうです。お楽しみに！
+次の記事は、 [Chiaki SugishitaさんがWooCommerceに関する記事](https://adventar.org/calendars/7729#:~:text=12/17,%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82)を書いてくれるそうです。お楽しみに！
 :::
