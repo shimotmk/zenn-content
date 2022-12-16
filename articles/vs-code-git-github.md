@@ -3,7 +3,7 @@ title: "VSCodeでよく使うGit,Gitコマンド,Github" # 記事のタイトル
 emoji: "🗒" # アイキャッチとして使われる絵文字（1文字だけ）
 type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["Git","Github"] # タグ。["markdown", "rust", "aws"]のように指定する
-published: false # 公開設定（falseにすると下書き）
+published: true # 公開設定（falseにすると下書き）
 ---
 
 :::message
@@ -190,5 +190,5 @@ Git,Githubは素晴らしい仕組み、サービスですね。
 それでは👋
 
 :::message
-次の記事は、 〇〇さんが「〇〇」の記事を書いてくれるそうです。お楽しみに！
+次の記事は、 [Chiaki SugishitaさんがWooCommerceに関する記事](https://adventar.org/calendars/7729#:~:text=12/17,%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82)を書いてくれるそうです。お楽しみに！
 :::
