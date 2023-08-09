@@ -12,6 +12,9 @@ WordPressのブロックエディターでブロックをカスタマイズす�
 
 2022年1月にはWordPres5.9がリリースされ使えるブロックも増えるので変更があったらコメントお願いします！
 
+最新情報が見つけやすいサイトを見つけたのでこのサイトでみても良いかもです
+https://wphelpers.dev/blocks
+
 ## 確認方法
 
 WordPressのブロックエディタを開いてコンソールで`wp.blocks.getBlockTypes()`もしくは`wp.blocks.getBlockVariations('core/embed')`を打つと使用できるブロック一覧が確認できます。
