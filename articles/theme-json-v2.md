@@ -14,12 +14,11 @@ theme.jsonを入れるとインナーブロックで全幅、幅広が選択出�
 以下のようにするとtheme.jsonを使用しているテーマでもインナーブロックで全幅、幅広が設定できた。
  
 ```PHP
-add_filter( 'block_editor_settings_all',
-	function ( $editor_settings ) {
-		$editor_settings['supportsLayout'] = false;
-		return $editor_settings;
-	}
-);
+add_filter( 'block_editor_settings_all', __NAMESPACE__ . '\block_editor_settings_all' );
+function block_editor_settings_all( $editor_settings ) {
+	$editor_settings['supportsLayout'] = false;
+	return $editor_settings;
+}
 ```
 
 ## コアのコード
