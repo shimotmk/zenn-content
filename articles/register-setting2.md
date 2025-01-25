@@ -10,6 +10,10 @@ published: false # 公開設定（falseにすると下書き）
 
 H2見出しH2見出しH2見出しH2見出し
 
+https://x.com/X/status/1881169030876381414
+
+https://x.com/X/status/1880894345798455306
+
 ### H3見出し
 
 H3見出しH3見出しH3見出しH3見出しH3見出し
